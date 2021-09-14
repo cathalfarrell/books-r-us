@@ -29,3 +29,11 @@ the services folder.
 ### Final Notes
 * I used UKit for the list screen and then SwiftUI for the detail screen just to demonstrate both
 * I added in error handling too and re-used the swiftUI error view inside the UIKit View Controller also.
+
+### Screenshots
+
+![Image description](https://cathalfarrell.com/repo-images/booksrus1.png)
+
+![Image description](https://cathalfarrell.com/repo-images/booksrus2.png)
+
+![Image description](https://cathalfarrell.com/repo-images/booksrus3.png)
