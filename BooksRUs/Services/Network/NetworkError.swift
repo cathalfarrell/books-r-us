@@ -28,6 +28,7 @@ public enum BooksRUsError: Error {
 	case failed
 	case serverSideError
 	case forbiddenError
+	case storedResultsNotFound
 }
 
 // MARK: - Custom user-friendly messages to display these errors to end-user
@@ -73,6 +74,8 @@ extension BooksRUsError: LocalizedError {
 			return "\(errorString) Server error"
 		case .forbiddenError:
 			return "\(errorString) You don't have permission to access this server."
+		case .storedResultsNotFound:
+			return "\(errorString) No stored results were found."
 		}
 	}
 }

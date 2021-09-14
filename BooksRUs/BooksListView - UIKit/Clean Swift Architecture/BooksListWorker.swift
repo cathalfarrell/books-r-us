@@ -37,7 +37,7 @@ class BooksListWorker {
 		if let persistedBooks = PersistencyService.shared.fetchAllBooks() {
 			completionHandler(persistedBooks, nil)
 		} else {
-			completionHandler(nil, BooksRUsError.noData)
+			completionHandler(nil, BooksRUsError.storedResultsNotFound)
 		}
 
 	}
