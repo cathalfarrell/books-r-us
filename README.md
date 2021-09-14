@@ -3,7 +3,7 @@ A little simple UIKit & SwiftUI Books List example app that demonstrates network
 unit testing, clean swift architecture, Lottie animation and Core Data. The network requests
 are extremely slow so I thought it would be best to use Core Data to get them and store them.
 
-##Installation
+## Installation
 Download the code and open the .xcodeproj file in Xcode
 Check that the dependencies Alamofire and Lottie are installed via Swift Package Manager, or update it if not.
 Install Swiftlint if you want to check for Swiftlint warnings.
